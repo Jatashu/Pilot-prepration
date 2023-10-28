@@ -1,0 +1,143 @@
+.hero__slider,
+.hero__slider2,
+.hero__slider3 {
+  background-size: cover;
+  height: 77vh;
+  display: block;
+  justify-content: center;
+}
+
+.hero__slider {
+  padding-top: 6rem;
+  background-image: url("../images/banner1.jpg");
+}
+
+.hero__slider2 {
+  padding-top: 6rem;
+  background-image: url("../images/banner5.avif");
+}
+
+.hero__slider3 {
+  padding-top: 6rem;
+  background-image: url("../images/banner3.jpg");
+}
+
+.hero__slider h5 {
+  text-align: center;
+  color: red;
+  margin-top: 0.5rem;
+  font-size: 12 px;
+}
+
+.hero__slider2 h5 {
+  text-align: center;
+  color: red;
+  margin-top: 0.5rem;
+  font-size: 12 px;
+}
+
+.hero__slider3 h5 {
+  text-align: center;
+  color: red;
+  margin-top: 0.5rem;
+  font-size: 12 px;
+}
+
+.slider__content1 {
+  display: block;
+  text-align: center;
+  align-items: center;
+  font-size: 2rem;
+  color: #f8f8f8;
+  padding-top: 20px;
+}
+
+.slider__content1 a {
+  font-weight: bold;
+}
+
+.slider__content1 p {
+  margin-top: 2rem;
+  font-size: 20px;
+}
+
+.slider__content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 2rem;
+  color: #f8f8f8;
+  padding-top: 20px;
+}
+
+.inner__slider {
+  display: flex;
+  font-size: 5rem;
+  font-weight: 700;
+  justify-content: center;
+  padding-top: 6rem;
+  color: aliceblue;
+}
+
+.btn_slider {
+  display: flex;
+  justify-content: center;
+  margin-top: 4rem;
+}
+
+.slider_btn {
+  display: flex;
+  justify-content: center;
+  background-color: #303345;
+  border: 2px solid #ef6603;
+  padding: 5px 20px 5px 20px;
+  font-size: 20px;
+  font-weight: 700;
+  border-radius: 20px;
+  color: #f8f8f8;
+}
+
+.slider_btn:hover {
+  background-color: #ef6603;
+  color: #f8f8f8;
+}
+
+@media screen and (max-width: 768px) {
+  .hero__slider {
+    padding-top: 3rem;
+  }
+  .inner__slider {
+    font-size: 3rem;
+    padding-top: 5rem;
+  }
+  .inner__slider {
+    font-size: 28px;
+  }
+  .slider__content1 a {
+    font-size: 20px;
+    font-style: italic;
+    font-weight: 600;
+  }
+  .slider__content1 p {
+    padding-top: 2rem;
+    text-align: center;
+    font-size: 10px;
+  }
+  .slider__content {
+    padding-top: 2rem;
+    text-align: center;
+    font-size: 10px;
+  }
+  .hero__slider {
+    height: 66vh;
+  }
+  .hero__slider2 {
+    padding-top: 9rem;
+    height: 66vh;
+  }
+  .hero__slider3 {
+    padding-top: 8rem;
+    height: 66vh;
+  }
+}

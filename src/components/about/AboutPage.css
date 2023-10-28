@@ -1,0 +1,209 @@
+.box2 {
+  display: flex;
+  padding-bottom: 6rem;
+}
+
+.box2_inner1 {
+  font-size: 1.5rem;
+  display: block;
+}
+
+.box2_inner1 p {
+  font-size: 20px;
+}
+
+.arrow_icon {
+  color: #ef6603;
+  font-size: 20px;
+}
+
+.box2_inner2 {
+  margin-left: 6rem;
+}
+
+.box2_inner2 a {
+  font-size: 1.5rem;
+  display: block;
+  margin-left: 4rem;
+}
+
+.learn_button {
+  border-color: #ef6603;
+  color: #ef6603;
+  font-size: 1.5rem;
+  background-color: white;
+  border-radius: 7px;
+  margin-top: 2rem;
+  padding: 1rem 3rem 1rem 3rem;
+  margin-left: 4rem;
+}
+
+.learn_button:hover {
+  background-color: #ef6603;
+  color: #f8f8f8;
+}
+
+.four__box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 6rem;
+  height: 13vh;
+  border: 1px solid #c5c8d2;
+}
+
+.four__box:hover {
+  color: #ef6603;
+}
+
+.four__box2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 6rem;
+  height: 13vh;
+  margin-left: 2rem;
+  border: 1px solid #c5c8d2;
+}
+
+.four__box2:hover {
+  color: #ef6603;
+}
+
+.four__box2 p {
+  font-size: 21px;
+  margin: 10px 0px 0px 15px;
+}
+
+.about_icon {
+  font-size: 39px;
+  margin-left: 10px;
+}
+
+.four__box p {
+  font-size: 21px;
+  margin: 10px 0px 0px 15px;
+}
+
+.main__text__box {
+  display: flex;
+  margin-bottom: 7rem;
+}
+
+.text_box {
+  padding-top: 3rem;
+}
+
+.text_box1 {
+  font-size: 2.5rem;
+}
+
+.text_box2 {
+  font-size: 1.6rem;
+}
+
+.image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 4rem;
+}
+
+.call_box {
+  background-color: #303345;
+  height: 35vh;
+  margin-top: 7rem;
+  color: white;
+}
+
+.main_box {
+  display: flex;
+}
+
+.call_box1 {
+  padding-top: 7rem;
+}
+
+.call_box1 h3 {
+  font-size: 27px;
+  font-weight: 600;
+}
+
+.call_box1 p {
+  padding-top: 0.5rem;
+  font-size: 17px;
+}
+
+.call_box2 {
+  height: 35vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.call_btn {
+  background-color: #ef6603;
+  color: white;
+  font-size: 1.5rem;
+  font-weight: 600;
+  border-radius: 20px;
+  border: #ef6603;
+  height: 6vh;
+  width: 16rem;
+}
+
+.call_btn:hover {
+  color: #ef6603;
+  background-color: #f8f8f8;
+}
+
+@media (max-width: 1368px) {
+  .box2 {
+    display: block;
+  }
+  .box2_inner2 {
+    margin-top: 4rem;
+  }
+  .main_about__box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .four__box {
+    width: 35%;
+    height: 9vh;
+  }
+  .four__box p {
+    display: none;
+  }
+  .four__box2 {
+    width: 35%;
+    height: 9vh;
+  }
+  .four__box2 p {
+    display: none;
+  }
+
+  .main__text__box {
+    display: block;
+  }
+  .image {
+    padding-top: 3rem;
+    width: 70%;
+  }
+  .main_box {
+    display: block;
+    height: 70vh;
+  }
+  .call_box {
+    height: 55vh;
+    width: 100%;
+    text-align: center;
+  }
+  .call_box2 {
+    height: 10vh;
+  }
+  .box2_inner2 {
+    margin-left: 0rem;
+  }
+}

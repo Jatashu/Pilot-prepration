@@ -1,0 +1,57 @@
+.pirce_box {
+  display: flex;
+  margin-top: 4rem;
+}
+
+.pirce_box1 {
+  display: block;
+  border-radius: 10px;
+}
+
+.inner_price_box1,
+.inner_price_box3 {
+  display: flex;
+  color: #7d7d7d;
+  font-size: 2rem;
+  background-color: #f8f8f8;
+  height: 12vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.inner_price_box2 {
+  justify-content: center;
+  align-items: center;
+}
+
+.inner_price_box2 p {
+  font-size: 1.5rem;
+  padding-top: 10px;
+  text-align: center;
+}
+
+.inner_price_box3 button {
+  font-size: 10px;
+  font-weight: 600;
+  font-size: 1.5rem;
+  border-radius: 20px;
+  padding: 0.5rem 3rem 0.5rem 3rem;
+  background-color: #ef6603;
+  border-color: #ef6603;
+  color: #f8f8f8;
+}
+
+.pirce_box2 {
+  border-radius: 5px;
+  margin-left: 3rem;
+}
+
+@media screen and (max-width: 1368px) {
+  .pirce_box {
+    display: block;
+  }
+  .pirce_box2 {
+    margin-left: 0rem;
+    margin-top: 3rem;
+  }
+}

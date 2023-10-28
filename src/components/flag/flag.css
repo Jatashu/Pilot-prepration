@@ -1,0 +1,47 @@
+.flag_box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #303345;
+  height: 35vh;
+  margin-top: 7rem;
+  color: white;
+}
+
+.label_flag {
+  font-size: 19px;
+  font-weight: 500;
+  padding-bottom: 3rem;
+}
+
+.main_flag_box {
+  display: flex;
+}
+
+.inner_flag_box {
+  text-align: center;
+}
+
+.inner_flag_box p {
+  margin-top: 4px;
+}
+
+.inner_flag_box2 {
+  text-align: center;
+  padding-left: 2rem;
+}
+
+.inner_flag_box2 p {
+  margin-top: 4px;
+}
+
+.country2_img {
+  height: 11vh;
+  width: 98%;
+}
+
+@media (max-width: 1368px) {
+  .flag_box {
+    display: none;
+  }
+}

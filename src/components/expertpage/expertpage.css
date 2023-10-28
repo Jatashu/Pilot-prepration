@@ -1,0 +1,155 @@
+.expert_box {
+  margin-top: 8rem;
+  height: 54vh;
+  background-color: #303345;
+  color: #fff;
+}
+
+.main_call_box {
+  display: flex;
+}
+
+.input_box {
+  padding-top: 3rem;
+  text-align: center;
+}
+
+.input_box button {
+  background-color: #ef6603;
+  border: #ef6603;
+  font-size: 15px;
+  font-weight: 500;
+  color: white;
+  width: 100px;
+  border-radius: 20px;
+  height: 5vh;
+  text-align: center;
+}
+
+.input_box button:hover {
+  background-color: #fff;
+  color: #ef6603;
+}
+
+.expert_box1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.expert_box2 {
+  width: 70%;
+  padding: 3rem;
+  border-radius: 6px;
+  background-color: #394054;
+}
+
+.join_box {
+  display: block;
+  justify-content: center;
+  align-items: center;
+  height: 22vh;
+}
+
+.WhatsApp {
+  width: 55px;
+  height: 7vh;
+}
+
+.join_box p {
+  font-size: 27px;
+  font-weight: 600;
+  margin: 0px 14px 0px 14px;
+}
+
+.join_box button {
+  width: 14%;
+  height: 5vh;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 500;
+  border-radius: 6px;
+  background-color: #ef5b5c;
+  border: #ef5b5c;
+  margin-left: -3rem;
+}
+
+.join_box a {
+  text-align: center;
+  width: 14%;
+  height: 5vh;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 500;
+  border-radius: 6px;
+  background-color: #ef5b5c;
+  border: #ef5b5c;
+}
+
+.inner_join1 {
+  font-size: 20px;
+}
+
+.inner_join2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 14vh;
+  margin-top: 1rem;
+}
+
+.form-label {
+  font-size: 14px;
+}
+
+.form-control {
+  height: 5vh;
+}
+
+@media (max-width: 1368px) {
+  .expert_box {
+    margin-top: 8rem;
+    height: 90vh;
+  }
+  .join_box {
+    display: block;
+    height: 24vh;
+  }
+  .inner_join1 {
+    font-size: 12px;
+  }
+  .inner_join2 {
+    display: flex;
+  }
+  .WhatsApp {
+    width: 50px;
+    height: 4vh;
+    margin-top: 2rem;
+  }
+  .inner_join2 p {
+    margin-top: 2rem;
+    margin-left: 1rem;
+    font-size: 15px;
+    font-weight: 600;
+  }
+  .join_box button {
+    width: 45%;
+    height: 3.5vh;
+    font-size: 13px;
+    margin-left: 0rem;
+    margin-left: -1rem;
+  }
+
+  .join_box a {
+    width: 45%;
+    height: 3.5vh;
+    margin-top: 2rem;
+  }
+}
+
+@media only screen and (min-width: 375px) and (max-width: 667px) {
+  .expert_box {
+    margin-top: 8rem;
+    height: 110vh;
+  }
+}

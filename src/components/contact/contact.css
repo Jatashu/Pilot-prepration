@@ -1,0 +1,139 @@
+.contact_box {
+  display: flex;
+  margin-top: 6rem;
+}
+
+.contact {
+  margin-top: -2rem;
+}
+
+.contact_box1 {
+  display: flex;
+  margin-top: -12px;
+}
+
+.inner_contact_box1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 10vh;
+}
+
+.inner_contact_box2 {
+  height: 10vh;
+}
+
+.inner_contact_box2 h4 {
+  font-size: 2.5rem;
+  margin-top: 1rem;
+  margin-left: 0.5rem;
+}
+
+.inner_contact_box2 p {
+  font-size: 15px;
+  margin-left: 0.5rem;
+}
+
+.contact_icon {
+  background-color: #ffecde;
+  color: #ef6603;
+  height: 44px;
+  width: 44px;
+  padding: 11px;
+  border-radius: 20px;
+}
+
+.contact_icon:hover {
+  background-color: #ef6603;
+  color: #f8f8f8;
+}
+
+.input_name_email {
+  display: flex;
+}
+
+.input_name,
+.input_email {
+  height: 6vh;
+  font-size: 1.5rem;
+  width: 49%;
+  padding-left: 10px;
+  border: 1px solid #c9d1d8;
+}
+
+.input_email {
+  margin-left: 2rem;
+}
+
+.input_subject {
+  height: 6vh;
+  margin-top: 3rem;
+  padding-left: 10px;
+  font-size: 1.5rem;
+  border: 1px solid #c9d1d8;
+}
+
+.input_message {
+  height: 16vh;
+  margin-top: 3rem;
+  padding-left: 10px;
+  font-size: 1.5rem;
+  border: 1px solid #c9d1d8;
+}
+
+.contact_btn {
+  width: 100%;
+  padding-top: 3rem;
+  display: flex;
+  justify-content: center;
+}
+
+.send_btn {
+  background-color: #ef6603;
+  color: white;
+  font-size: 1.5rem;
+  font-weight: 600;
+  border-radius: 20px;
+  border: #ef6603;
+  height: 6vh;
+  width: 16rem;
+}
+
+.send_btn:hover {
+  background-color: #f8f8f8;
+  color: #ef6603;
+}
+
+@media (max-width: 1368px) {
+  .contact_box {
+    display: block;
+  }
+  .contact {
+    margin-bottom: 4rem;
+  }
+  .input_name_email {
+    display: block;
+  }
+  .input_name {
+    display: block;
+    width: 100%;
+  }
+  .input_email {
+    display: block;
+    width: 100%;
+    margin-top: 3rem;
+    margin-left: 0rem;
+  }
+  .input_subject {
+    width: 100%;
+  }
+  .input_message {
+    width: 100%;
+  }
+  .inner_contact_box2 h4 {
+    margin-left: 1.5rem;
+  }
+  .inner_contact_box2 p {
+    margin-left: 1.5rem;
+  }
+}
