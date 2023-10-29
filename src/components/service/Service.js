@@ -1,17 +1,17 @@
 import React from "react";
 import "./service.css";
 import { FaFacebookF, FaLinkedinIn } from "react-icons/fa";
-import Demand from "../images/demand.png";
-import Income from "../images/income3.png";
-import Healty from "../images/beach.png";
-import Challange from "../images/challange1.png";
-import Excitement from "../images/excitement3.png";
-import Unique from "../images/dream.png";
+import Demand from "../images/benefitsicons/Highdemand.png";
+import Income from "../images/benefitsicons/highearning.png";
+import Healty from "../images/benefitsicons/dreamlifestyle.png";
+import Challange from "../images/benefitsicons/Challenging.png";
+import Excitement from "../images/benefitsicons/Thrill&excitement.png";
+import Unique from "../images/benefitsicons/unique.png";
 
 const Service = () => {
   return (
     <>
-      <div className="container" id="service">
+      <div className="container" id="benefits">
         <div className=" label-1  pt-5">
           <h4 className="pt-5">BENEFITS OF BECOMING A PILOT</h4>
           <hr />
@@ -49,7 +49,7 @@ const Service = () => {
             <div className="social_content">
               <h3>Dream Lifestyle</h3>
               <p>
-                Five star hotel stay during layovers. Sky is&nbsp; your office.
+                Five star hotel stay during layovers. Sky is your office.
                 Travel to different places & try different cuisines.
               </p>
             </div>

@@ -31,7 +31,7 @@ function App() {
 
         <Service />
         <Eligibility />
-        <Flag />
+        {/* <Flag /> */}
         <Testimonials />
         <Expert />
         {/* <Price /> */}

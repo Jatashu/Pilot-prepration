@@ -20,8 +20,11 @@
   font-weight: 700;
 }
 
-@media screen and (max-width: 1368px) {
+@media screen and (max-width: 800px) {
   .label-1 hr {
     width: 25%;
+  }
+  .container{
+    width: 90% !important;
   }
 }

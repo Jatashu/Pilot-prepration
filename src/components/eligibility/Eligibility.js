@@ -7,7 +7,7 @@ import Best from "../images/best.jpg";
 const Eligibility = () => {
   return (
     <>
-      <div className="container pt-5" id="about">
+      <div className="container pt-5" id="eligibility">
         <div className="label-1 pt-5">
           <h4 className="pt-5">ELIGIBILITY</h4>
           <hr />

@@ -104,7 +104,7 @@
   color: #ef6603;
 }
 
-@media (max-width: 1368px) {
+@media (max-width: 800px) {
   .contact_box {
     display: block;
   }

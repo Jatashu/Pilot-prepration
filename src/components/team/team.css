@@ -6,19 +6,19 @@
 }
 
 .team_box1 {
-  height: 56vh;
+  height: 100%;
   position: relative;
   overflow: hidden;
   transition: all 0.5s ease-in-out;
 }
 
 .team_box2 {
-  height: 56vh;
+  height: 100%;
   margin-left: 7rem;
 }
 
 .img_team {
-  height: 45vh;
+  height: 300px;
   width: 100%;
 }
 
@@ -45,7 +45,7 @@
   padding-top: 2rem;
   font-size: 20px;
   font-weight: 600;
-  font-style: italic;
+  /* font-style: italic; */
 }
 
 .p_post {
@@ -55,17 +55,18 @@
   color: #7c91a2;
 }
 
-@media (max-width: 1368px) {
+@media (max-width: 800px) {
   /* @media screen (max-width: 600px) and (min-width: 1368px) { */
   .team_box {
     display: block;
   }
   .team_box1 {
-    margin-top: 4rem;
+    margin-top: 0rem;
   }
   .team_box2 {
     margin-top: 2rem;
     margin-left: 0rem;
+    padding-bottom: 8px;
   }
 }
 

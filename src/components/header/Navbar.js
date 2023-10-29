@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import "./navbar.css";
-import logo from "../images/logo.jpg";
+import logo from "../images/logo/pilot_whitetextonly.png";
 
 function Navbar() {
   const [active, setActive] = useState("nav__menu");
@@ -52,13 +52,13 @@ function Navbar() {
             </a>
           </li>
           <li className="nav__item">
-            <a href="#service" className="nav__link">
+            <a href="#benefits" className="nav__link">
               Benefits
             </a>
           </li>
           <li className="nav__item">
-            <a href="#service" className="nav__link">
-              Price
+            <a href="#eligibility" className="nav__link">
+              Eligibility
             </a>
           </li>
           <li className="nav__item">

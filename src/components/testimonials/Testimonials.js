@@ -25,6 +25,7 @@ export default function App() {
         <div className="box2_inner2 col-lg-5">
           <div className="ratio ratio-16x9">
             <iframe
+              className="iframeTestComp"
               src="https://www.youtube.com/embed/xKmYT1sM1p0?si=h4wGOBbMzDtBX-_P"
               title="YouTube video"
               allowfullscreen
@@ -35,6 +36,7 @@ export default function App() {
         <div className="box2_inner2 col-lg-5">
           <div className="ratio ratio-16x9">
             <iframe
+              className="iframeTestComp"
               src="https://www.youtube.com/embed/DBSK2wATbfQ?si=Zk5PD-C152F8hTdS"
               title="YouTube video"
               allowfullscreen
@@ -44,6 +46,7 @@ export default function App() {
         <div className="box2_inner2 col-lg-5">
           <div className="ratio ratio-16x9">
             <iframe
+              className="iframeTestComp"
               src="https://www.youtube.com/embed/QQUWoScTE9Y?si=2TbVy1l-0EweVA_l"
               title="YouTube video"
               allowfullscreen

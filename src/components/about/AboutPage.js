@@ -39,7 +39,7 @@ const About = () => {
 
           <div className="box2_inner2 col-lg-5">
             <div className="ratio ratio-16x9">
-              <iframe
+              <iframe className="iframeComp"
                 src="https://www.youtube.com/embed/fE2_h-MPyko?si=n--JBffX9crBqdWQ"
                 title="YouTube video"
                 allowfullscreen

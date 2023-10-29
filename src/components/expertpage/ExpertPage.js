@@ -29,18 +29,18 @@ const ExpertPage = () => {
           console.log(error.text);
         }
       );
-    toast.info("Submitted", { position: "bottom-right" });
+    toast.success("Our Team will soon reach out to you. :)", { position: "bottom-right" });
     setSubmitted(true);
   };
 
   return (
     <>
-      <div className="expert_box col-lg-12">
+      <div className="expert_box col-lg-12" id="BookFreeSession">
         <div className="container main_call_box">
           <div className="col-sm-12">
-            <h2 className="my-5 mx-5">
+            <h2 className="my-5">
               Book a free counseling session with us to resolve all your doubts
-              and queries about pursuing a career as a Pilot :-
+              and queries about pursuing a career as a Pilot :
             </h2>
 
             <div className="expert_box1">
@@ -99,7 +99,7 @@ const ExpertPage = () => {
                     </div>
                     <div className="text-dark input_box">
                       <button name="submit" type="submit" value="Send">
-                        submit
+                        SUBMIT
                       </button>
                     </div>
                   </form>

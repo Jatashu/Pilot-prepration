@@ -9,12 +9,12 @@
 }
 
 .box2_inner1 p {
-  font-size: 20px;
+  font-size: 16px;
 }
 
 .arrow_icon {
   color: #ef6603;
-  font-size: 20px;
+  font-size: 18px;
 }
 
 .box2_inner2 {
@@ -109,6 +109,11 @@
   margin-top: 4rem;
 }
 
+.iframeComp{
+  border-radius: 5px;
+  margin-top: -20px;
+}
+
 .call_box {
   background-color: #303345;
   height: 35vh;
@@ -157,7 +162,7 @@
   background-color: #f8f8f8;
 }
 
-@media (max-width: 1368px) {
+@media (max-width: 800px) {
   .box2 {
     display: block;
   }

@@ -40,7 +40,7 @@
   width: 98%;
 }
 
-@media (max-width: 1368px) {
+@media (max-width: 800px) {
   .flag_box {
     display: none;
   }
